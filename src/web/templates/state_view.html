@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{%  block title %}Health Indicator{% endblock %}
+{% block content %}
+    <div id="GDP">GDP: {{ gdp }} {{ unit }}</div>
+    <div id="Unemployment_rate">Unemployment Rate: {{ unr }}</div>
+    <div id="Median_income">Median Household Income: {{ med }}</div>
+    <div>
+    <p>
+       <h1>{{ state_name }}</h1>
+        <img src="{{ state_img }}" alt="Image of {{ state_name }}"></img>
+    </p>
+    </div>
+{% endblock %}
