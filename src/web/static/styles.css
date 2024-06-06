@@ -1,5 +1,21 @@
+:root {
+    --lblue: #1D64F2;
+    --mblue: #1243A6;
+    --dblue: #011c40;
+    --cream: #F2EED8;
+    --orange: #f24822;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--dblue);
+    color: white;
+}
+
 #map { height: 500px;
        width: 750px;
+        color: black;
 }
 
 p {
@@ -17,4 +33,11 @@ p {
 .info h4 {
     margin: 0 0 5px;
     color: #777;
+}
+
+.center {
+    padding: 4rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
 }

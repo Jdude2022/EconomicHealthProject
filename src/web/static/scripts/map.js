@@ -127,21 +127,20 @@ function highlightFeature(e) {
 		info.update();
 	}
 
-	function zoomToFeature(e) {
+	function navigateFeature(e) {
 		// strip spaces out of feature
 		let stateName = e.target.feature.properties.name;
 		stateName = stateName.replace(/\s/g, "");
 		window.location = ('/states/' + stateName);
 		// console.log(e);
 		// console.log(e.target.feature.properties.name)
-		map.fitBounds(e.target.getBounds());
 	}
 
 	function onEachFeature(feature, layer) {
 		layer.on({
 			mouseover: highlightFeature,
 			mouseout: resetHighlight,
-			click: zoomToFeature
+			click: navigateFeature
 		});
 	}
 
