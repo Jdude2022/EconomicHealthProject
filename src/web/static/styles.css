@@ -10,16 +10,15 @@ body{
     padding: 0;
     margin: 0;
     background-color: var(--dblue);
-    color: white;
 }
 
+h1 {
+    color: white;
+    text-align: center;
+}
 #map { height: 500px;
        width: 750px;
         color: black;
-}
-
-p {
-    color: red;
 }
 
 .info {

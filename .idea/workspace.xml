@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ccc41ac5-532d-42c2-9eff-b80df246e14a" name="Changes" comment="Switch to conda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/scripts/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/static/scripts/map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/web/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/static/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/web/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/web/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/templates/state_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/templates/state_view.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +42,12 @@
     &quot;assignee&quot;: &quot;Jdude2022&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Jdude2022/EconomicHealthProject.git",
-    "accountId": "3557c6ac-4366-4fb6-95ee-ab6231faed22"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Jdude2022/EconomicHealthProject.git&quot;,
+    &quot;accountId&quot;: &quot;3557c6ac-4366-4fb6-95ee-ab6231faed22&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -59,26 +57,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Flask server.Flask (app.py).executor": "Run",
-    "Flask server.flaskProject2.executor": "Run",
-    "Python tests.Python tests for test_Utilities.TestUtilities.test_state_conversion.executor": "Run",
-    "Python.GrabnClean.executor": "Run",
-    "Python.Web.executor": "Run",
-    "Python.WebRoutes.executor": "Run",
-    "Python.__main__.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/johnjalali/repos/EconomicHealthProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Flask server.Flask (app.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.flaskProject2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Utilities.TestUtilities.test_state_conversion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GrabnClean.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Web.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WebRoutes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__main__.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/johnjalali/repos/EconomicHealthProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/web/static/images" />
@@ -152,7 +150,8 @@
       <workItem from="1716911636607" duration="32733000" />
       <workItem from="1717511411601" duration="3141000" />
       <workItem from="1717624148140" duration="8802000" />
-      <workItem from="1717694986756" duration="1341000" />
+      <workItem from="1717694986756" duration="2299000" />
+      <workItem from="1717810776069" duration="4011000" />
     </task>
     <task id="LOCAL-00001" summary="Switch to conda">
       <option name="closed" value="true" />
@@ -173,12 +172,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Switch to conda" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/EconomicHealthProject$flaskProject2.coverage" NAME="flaskProject2 Coverage Results" MODIFIED="1717810775528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flaskProject2$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1716996042573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EconomicHealthProject$WebRoutes.coverage" NAME="WebRoutes Coverage Results" MODIFIED="1717814171999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/web" />
     <SUITE FILE_PATH="coverage/flaskProject2$.coverage" NAME=" Coverage Results" MODIFIED="1717684969934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/indicator/utilities" />
     <SUITE FILE_PATH="coverage/flaskProject2$GrabnClean.coverage" NAME="GrabnClean Coverage Results" MODIFIED="1717172902987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/inidicator" />
     <SUITE FILE_PATH="coverage/flaskProject2$flaskProject2.coverage" NAME="flaskProject2 Coverage Results" MODIFIED="1716995980493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flaskProject2$WebRoutes.coverage" NAME="WebRoutes Coverage Results" MODIFIED="1717685434863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/web" />
-    <SUITE FILE_PATH="coverage/EconomicHealthProject$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1717696319379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/EconomicHealthProject$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1717698159928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/flaskProject2$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1716313168598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/flaskProject2$Web.coverage" NAME="Web Coverage Results" MODIFIED="1717457243082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/web" />
   </component>
