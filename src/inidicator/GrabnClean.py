@@ -1,8 +1,5 @@
-import pandas
 from src.keys.Key import Key
 from EconomicsHealthProject.src.inidicator import Utilities
-import pandas as pd
-import requests
 from fredapi import Fred
 
 

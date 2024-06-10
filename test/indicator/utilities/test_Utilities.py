@@ -1,4 +1,3 @@
-import pytest
 from EconomicsHealthProject.src.inidicator import Utilities
 
 class TestUtilities:

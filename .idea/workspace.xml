@@ -4,83 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccc41ac5-532d-42c2-9eff-b80df246e14a" name="Changes" comment="Switch to conda">
-      <change afterPath="$PROJECT_DIR$/EconomicsHealthProject/test/indicator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EconomicsHealthProject/test/indicator/utilities/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flaskProject2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flaskProject2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inidicator/GrabnClean.py" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/inidicator/GrabnClean.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inidicator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inidicator/utilities/Utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/inidicator/utilities/Utilities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inidicator/utilities/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/inidicator/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/Web.py" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/Web.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/WebRoutes.py" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/WebRoutes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/AK.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/AK.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/AL.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/AL.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/AR.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/AR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/AZ.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/AZ.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/CA.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/CA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/CO.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/CO.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/CT.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/CT.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/DE.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/DE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/FL.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/FL.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/GA.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/GA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/HI.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/HI.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/IA.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/IA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/ID.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/ID.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/IL.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/IL.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/IN.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/IN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/KS.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/KS.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/KY.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/KY.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/LA.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/LA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/MA.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/MA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/MD.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/MD.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/ME.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/ME.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/MI.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/MI.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/MN.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/MN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/MO.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/MO.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/MS.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/MS.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/MT.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/MT.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/NC.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/NC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/ND.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/ND.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/NE.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/NE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/NH.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/NH.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/NJ.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/NJ.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/NM.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/NM.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/NV.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/NV.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/NY.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/NY.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/OH.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/OH.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/OK.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/OK.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/OR.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/OR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/PA.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/PA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/RI.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/RI.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/SC.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/SC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/SD.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/SD.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/TN.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/TN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/TX.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/TX.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/UT.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/UT.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/VA.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/VA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/VT.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/VT.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/WA.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/WA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/WI.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/WI.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/WV.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/WV.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/images/WY.png" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/images/WY.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/scripts/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/scripts/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/scripts/statedata.js" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/scripts/statedata.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/templates/state_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/templates/state_view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/templates/statesData.json" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/templates/statesData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/inidicator/utilities/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/indicator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/src/web/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/indicator/utilities/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/indicator/utilities/test_Utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/EconomicsHealthProject/test/indicator/utilities/test_Utilities.py" afterDir="false" />
-    </list>
+    <list default="true" id="ccc41ac5-532d-42c2-9eff-b80df246e14a" name="Changes" comment="Switch to conda" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -225,7 +149,7 @@
       <workItem from="1717694986756" duration="2299000" />
       <workItem from="1717810776069" duration="4033000" />
       <workItem from="1717877362088" duration="3359000" />
-      <workItem from="1717972166628" duration="3467000" />
+      <workItem from="1717972166628" duration="4133000" />
     </task>
     <task id="LOCAL-00001" summary="Switch to conda">
       <option name="closed" value="true" />
