@@ -1,6 +1,6 @@
 import pandas
 from src.keys.Key import Key
-from src.inidicator.utilities.Utilities import Utilities
+from EconomicsHealthProject.src.inidicator import Utilities
 import pandas as pd
 import requests
 from fredapi import Fred

@@ -1,5 +1,5 @@
 import pytest
-from src.inidicator.utilities.Utilities import Utilities
+from EconomicsHealthProject.src.inidicator import Utilities
 
 class TestUtilities:
 

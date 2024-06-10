@@ -1,7 +1,7 @@
 from flask import request, render_template
 from flask_classful import FlaskView, route
-from src.inidicator.GrabnClean import GrabnClean
-from src.inidicator.utilities.Utilities import Utilities
+from EconomicsHealthProject.src.inidicator import GrabnClean
+from EconomicsHealthProject.src.inidicator import Utilities
 import os  # worried about cors/ file error
 
 

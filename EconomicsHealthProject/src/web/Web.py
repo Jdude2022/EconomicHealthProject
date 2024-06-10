@@ -1,6 +1,6 @@
 from flask import Flask
 from typing import List
-from src.web.WebRoutes import WebRoutes
+from EconomicsHealthProject.src.web.WebRoutes import WebRoutes
 
 
 class Web:
@@ -9,4 +9,5 @@ class Web:
         """main method"""
         app = Flask(__name__)
         WebRoutes.register(app)
-        return app.run(host='0.0.0.0', port=5050)
+        return app
+        # return app.run(host='0.0.0.0', port=5050)
