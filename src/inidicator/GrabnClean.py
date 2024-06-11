@@ -1,5 +1,5 @@
 from src.keys.Key import Key
-from EconomicsHealthProject.src.inidicator import Utilities
+from src.inidicator import Utilities
 from fredapi import Fred
 
 

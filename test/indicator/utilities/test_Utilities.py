@@ -1,4 +1,4 @@
-from EconomicsHealthProject.src.inidicator import Utilities
+from src.inidicator import Utilities
 
 class TestUtilities:
 
