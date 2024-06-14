@@ -10,7 +10,9 @@
 #     app.run()
 
 import sys
-from src.web.Web import Web
+from EconomicHealthProject.src.web.Web import Web
 
 app = Web.main(sys.argv)
 # app.run()
+if __name__ == '__main__':
+     app.run()

@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from typing import List
-from src.web.WebRoutes import WebRoutes
+from EconomicHealthProject.src.web.WebRoutes import WebRoutes
 
 
 class Web:
