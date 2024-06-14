@@ -1,7 +1,7 @@
-from flask import render_template
+from flask import render_template, request, redirect, url_for
 from flask_classful import FlaskView, route
-from src.inidicator import GrabnClean
-from src.inidicator import Utilities
+from src.inidicator.GrabnClean import GrabnClean
+from src.inidicator.utilities.Utilities import Utilities
 import os  # worried about cors/ file error
 
 
@@ -13,6 +13,14 @@ class WebRoutes(FlaskView):
         # TODO ADD ALASKA and HI TO THE HOME SCREEN
         state_date = GrabnClean().grab_series_json(self)
         return render_template("index.html", unit='B', gdp=state_date[0], unr=state_date[1], med=state_date[2])
+
+    @route('/login', methods=['GET', 'POST'])
+    def login(self):
+        if request.method == "POST":
+            user = request.form["uname"]
+            return redirect(url_for("user", usr=user))
+        else:
+            return render_template("login.html")
 
     @route('/statesData.json')
     def data(self):

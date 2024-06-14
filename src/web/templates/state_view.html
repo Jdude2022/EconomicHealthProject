@@ -1,9 +1,45 @@
-{% extends "base.html" %}
+{% extends "index.html" %}
 {%  block title %}Health Indicator{% endblock %}
+{% block cards %}
+        <div class="card-group col d-flex justify-content-center">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100 mx-auto">
+      <div class="card-body">
+        <h5 class="card-title">GDP</h5>
+        <p class="card-text">GDP: {{ gdp }} {{ unit }}</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 mx-auto">
+      <div class="card-body">
+        <h5 class="card-title">Unemployment Rate</h5>
+        <p class="card-text"> Unemployment Rate: {{ unr }}</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Median Household Income</h5>
+        <p class="card-text"> Median Household Income: {{ med }}</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+{% endblock %}
 {% block content %}
-    <div id="GDP">GDP: {{ gdp }} {{ unit }}</div>
-    <div id="Unemployment_rate">Unemployment Rate: {{ unr }}</div>
-    <div id="Median_income">Median Household Income: {{ med }}</div>
     <div class="center">
        <h1>{{ state_name }}</h1>
         <img src="{{ state_img }}" alt="Image of {{ state_name }}"></img>

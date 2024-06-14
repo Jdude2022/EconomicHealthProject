@@ -1,5 +1,5 @@
 from src.keys.Key import Key
-from src.inidicator import Utilities
+from src.inidicator.utilities.Utilities import Utilities
 from fredapi import Fred
 
 
