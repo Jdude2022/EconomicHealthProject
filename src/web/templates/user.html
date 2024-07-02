@@ -1,5 +1,6 @@
 {% extends "base.html" %}
-{% block title %} Login! {% endblock %}
+{%  block title %}Health Indicator{% endblock %}
+{% block header %} User {% endblock %}
 {% block content %}
     {% with messages = get_flashed_messages() %}
         {% if messages %}
@@ -8,9 +9,6 @@
             {% endfor %}
         {% endif %}
     {% endwith %}
-<form action="#" method="post">
-    <label for="uname">Name:</label>
-    <input type="text" id="uname" name="uname" />
-    <input type="submit" value="submit" />
-</form>
+
+    <p style="color:white">welcome {{ user }} </p>
 {% endblock %}
