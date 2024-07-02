@@ -6,3 +6,4 @@ flask-classful
 fredapi
 geopandas
 pytest
+flask-wtf

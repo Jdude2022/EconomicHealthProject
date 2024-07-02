@@ -1,5 +1,7 @@
 {% extends "index.html" %}
 {%  block title %}Health Indicator{% endblock %}
+{% block header %}{{ state_name }} {% endblock %}
+
 {% block cards %}
         <div class="card-group col d-flex justify-content-center">
         <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -41,7 +43,9 @@
 {% endblock %}
 {% block content %}
     <div class="center">
-       <h1>{{ state_name }}</h1>
         <img src="{{ state_img }}" alt="Image of {{ state_name }}"></img>
     </div>
+{% endblock %}
+{% block graph %}
+    {{graph}}
 {% endblock %}

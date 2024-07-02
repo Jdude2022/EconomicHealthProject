@@ -1,4 +1,4 @@
-from flask import render_template, request, redirect, url_for
+from flask import render_template, request, redirect, url_for, session, flash
 from flask_classful import FlaskView, route
 from src.inidicator.GrabnClean import GrabnClean
 from src.inidicator.utilities.Utilities import Utilities
@@ -17,10 +17,31 @@ class WebRoutes(FlaskView):
     @route('/login', methods=['GET', 'POST'])
     def login(self):
         if request.method == "POST":
+            session.permanent = True
             user = request.form["uname"]
-            return redirect(url_for("user", usr=user))
+            session["user"] = user
+            flash("You are now logged in!", "success")
+            return redirect(url_for("WebRoutes:user"))
         else:
+            if "user" in session:
+                flash("Already logged in!", "success")
+                return redirect(url_for("WebRoutes:user"))
             return render_template("login.html")
+
+    @route('/logout')
+    def logout(self):
+        if "user" in session:
+            del session["user"]
+            flash("You have been logged out.")
+        return redirect(url_for("WebRoutes:login"))
+
+    @route('/user')
+    def user(self):
+        if "user" in session:
+            user = session["user"]
+            return render_template("user.html", user=user)
+        flash("You are not logged in!", "danger")
+        return redirect(url_for("WebRoutes:login"))
 
     @route('/statesData.json')
     def data(self):
@@ -35,5 +56,6 @@ class WebRoutes(FlaskView):
         img = os.path.join('../', 'static', 'images', state_abv + '.png')
 
         state_info = GrabnClean().grab_series_states(self, state)
+        graph = GrabnClean().grab_series_chart_state(self, state)
         return render_template("state_view.html", state_name=state, state_img=img, unit='M',
-                               gdp=state_info[0], unr=state_info[1], med=state_info[2])
+                               gdp=state_info[0], unr=state_info[1], med=state_info[2], graph=graph)

@@ -1,3 +1,4 @@
+import pandas as pd
 from src.keys.Key import Key
 from src.inidicator.utilities.Utilities import Utilities
 from fredapi import Fred
@@ -23,7 +24,6 @@ class GrabnClean:
         med = med.tail(1)
         return gdp[0], unr[0], med[0]
 
-
     @staticmethod
     def grab_series_states(self, state):
         key = Key()
@@ -36,3 +36,18 @@ class GrabnClean:
         med = fred.get_series('MEHOINUS' + abv + 'A646N')
         med = med.tail(1)
         return gdp[0], unr[0], med[0]
+
+    @staticmethod
+    def grab_series_chart_state(self, state):
+        """Grabs data from selected series and charts it.
+
+        TODO: Add a data indicator that grabs requested data and plots it.
+        """
+        key = Key()
+        fred = Fred(api_key=f'{key.key}')
+        abv = Utilities.state_to_abbreviation(state)
+        df = {}
+        df['gdp'] = fred.get_series(abv + 'NGSP')
+        df = pd.DataFrame(df)
+        # df.plot()
+        return df.plot()
