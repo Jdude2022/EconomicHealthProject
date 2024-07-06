@@ -1,7 +1,7 @@
 from flask import render_template, request, redirect, url_for, session, flash
 from flask_classful import FlaskView, route
-from EconomicHealthProject.src.inidicator.GrabnClean import GrabnClean
-from EconomicHealthProject.src.inidicator.utilities.Utilities import Utilities
+from src.inidicator.GrabnClean import GrabnClean
+from src.inidicator.utilities.Utilities import Utilities
 import os  # worried about cors/ file error
 
 
@@ -56,6 +56,20 @@ class WebRoutes(FlaskView):
         img = os.path.join('../', 'static', 'images', state_abv + '.png')
 
         state_info = GrabnClean().grab_series_states(self, state)
-        graph = GrabnClean().grab_series_chart_state(self, state)
+        graph, nonpanda = GrabnClean().grab_series_chart_state(self, state)
+        print(graph)
+        print(nonpanda[1])
+        print(type(nonpanda))
+        print(graph)
+        # ---- Graph test
+        data = [
+            ("01/01/2020", 12),
+            ("01/02/2020", 11),
+            ("01/03/2020", 10),
+            ("01/04/2020", 9)
+        ]
+        labels = [row[0] for row in data]
+        values = [row[1] for row in data]
+        # ----- Graph test
         return render_template("state_view.html", state_name=state, state_img=img, unit='M',
-                               gdp=state_info[0], unr=state_info[1], med=state_info[2], graph=graph)
+                               gdp=state_info[0], unr=state_info[1], med=state_info[2], labels=labels, values=values)
