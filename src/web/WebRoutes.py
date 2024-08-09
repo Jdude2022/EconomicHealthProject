@@ -82,4 +82,4 @@ class WebRoutes(FlaskView):
         values = [row[1] for row in data]
         # ----- Graph test
         return render_template("state_view.html", state_name=state, state_img=img, unit='M',
-                               gdp=state_info[0], unr=state_info[1], med=state_info[2], labels=labels, values=values)
+                               gdp=state_info[0], unr=state_info[1], med=state_info[2])

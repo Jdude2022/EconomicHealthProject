@@ -1,3 +1,4 @@
+import pandas as pd
 from src.inidicator.utilities.Utilities import Utilities
 from fredapi import Fred
 import pandas as pd
@@ -23,6 +24,7 @@ class GrabnClean:
         med = fred.get_series('MEHOINUSA646N')
         med = med.tail(1)
         return gdp[0], unr[0], med[0]
+
 
     @staticmethod
     def grab_series_states(self, state):
