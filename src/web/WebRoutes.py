@@ -57,17 +57,27 @@ class WebRoutes(FlaskView):
 
         state_info = GrabnClean().grab_series_states(self, state)
         graph, nonpanda = GrabnClean().grab_series_chart_state(self, state)
-        print(graph)
-        print(nonpanda[1])
-        print(type(nonpanda))
-        print(graph)
-        # ---- Graph test
-        data = [
-            ("01/01/2020", 12),
-            ("01/02/2020", 11),
-            ("01/03/2020", 10),
-            ("01/04/2020", 9)
-        ]
+        bob = graph.to_dict()
+        test = bob.items()
+        for i in test:
+            for x, j in enumerate(i):
+                print(type(j))
+                print(j)
+                if x != 0:
+                    data = list(j.items())
+        new_tup_list = []
+        for i in data:
+            a = str(i[0])
+            a = a[:10]
+            new_tup_list.append((a, i[1]))
+        print(new_tup_list)
+        data = new_tup_list[:-1]
+        # data = [
+        #     ("01/01/2020", 12),
+        #     ("01/02/2020", 11),
+        #     ("01/03/2020", 10),
+        #     ("01/04/2020", 9)
+        # ]
         labels = [row[0] for row in data]
         values = [row[1] for row in data]
         # ----- Graph test

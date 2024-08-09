@@ -1,6 +1,6 @@
 {% extends "index.html" %}
 {%  block title %}Health Indicator{% endblock %}
-{% block header %}{{ state_name }} {% endblock %}
+{% block header %}{{ state_name }} Average {% endblock %}
 
 {% block cards %}
         <div class="card-group col d-flex justify-content-center">
@@ -48,7 +48,7 @@
 {% endblock %}
 {% block graph %}
     {{graph}}
-    <canvas id="lineChart" width="900" height="400"></canvas>
+    <canvas id="lineChart" width="900" height="600" class="center" style="background: rgba(246,244,235,0.95)"></canvas>
     <script>
         let ctx = document.getElementById("lineChart").getContext("2d");
         let lineChart = new Chart(ctx, {
@@ -57,16 +57,23 @@
                 labels: {{ labels | safe }},
                 datasets: [
                     {
-                        label: "Data points",
+                        label: "State GDP in Millions",
                         data: {{ values | safe }},
                         fill: true,
-                        borderColor: "rgb(75, 192, 192)",
-                        lineTension: 0.1
+                        // borderColor: "rgb(75, 192, 192)",
+                        lineTension: 0.1,
+                        color: "#000"
                     }
                 ]
             },
             options: {
-                responsive: false
+                responsive: false,
+                legend: {
+                    labels: {
+                        fontcolor: 'black'
+                    }
+                }
+
             }
         });
     </script>
